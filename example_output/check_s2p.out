@@ -1,0 +1,11 @@
+cp examples/R_commands.txt s2p_commands.txt
+cp examples/R_run.csh s2p_run.csh
+bsub < s2p_run.csh
+cp examples/Python_commands.txt s2p_commands.txt
+cp examples/Python_run.csh s2p_run.csh
+bsub < s2p_run.csh
+cp examples/MATLAB_commmands.txt s2p_commands.txt
+cp examples/MATLAB_run.csh s2p_run.csh
+bsub < s2p_run.csh
+mv *_err example_output/
+mv *_out example_output/

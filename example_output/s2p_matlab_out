@@ -1,0 +1,181 @@
+ Processor            2  executes: matlab -nodisplay -nosplash -r 's2p_test( 2.0, 2.1, 2.2);exit;'
+ Processor            1  executes: matlab -nodisplay -nosplash -r 's2p_test( 1.0, 1.1, 1.2);exit;'
+ Processor            4  executes: matlab -nodisplay -nosplash -r 's2p_test( 4.0, 4.1, 4.2);exit;'
+ Processor            5  executes: matlab -nodisplay -nosplash -r 's2p_test( 5.0, 5.1, 5.2);exit;'
+ Processor            3  executes: matlab -nodisplay -nosplash -r 's2p_test( 3.0, 3.1, 3.2);exit;'
+ Processor            6  executes: matlab -nodisplay -nosplash -r 's2p_test( 6.0, 6.1, 6.2);exit;'
+ Processor            0  executes: matlab -nodisplay -nosplash -r 's2p_test( 8.0, 8.1, 8.2);exit;'
+ Processor            7  executes: matlab -nodisplay -nosplash -r 's2p_test( 7.0, 7.1, 7.2);exit;'
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Parameter 1 is 6.000000
+Parameter 2 is 6.100000
+Parameter 3 is 6.200000
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+Parameter 1 is 1.000000
+Parameter 2 is 1.100000
+Parameter 3 is 1.200000
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Parameter 1 is 8.000000
+Parameter 2 is 8.100000
+Parameter 3 is 8.200000
+Parameter 1 is 7.000000
+Parameter 2 is 7.100000
+Parameter 3 is 7.200000
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ System call on myid=           6  took    17.813151310999999       seconds
+ System call on myid=           1  took    19.344087236000000       seconds
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ System call on myid=           0  took    20.143316193000000       seconds
+ Total time was    20.170074382999999       seconds
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Parameter 1 is 5.000000
+Parameter 2 is 5.100000
+Parameter 3 is 5.200000
+ System call on myid=           7  took    22.553156760000000       seconds
+Parameter 1 is 4.000000
+Parameter 2 is 4.100000
+Parameter 3 is 4.200000
+ System call on myid=           5  took    30.422749388000000       seconds
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ System call on myid=           4  took    33.103745952999994       seconds
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Parameter 1 is 2.000000
+Parameter 2 is 2.100000
+Parameter 3 is 2.200000
+Parameter 1 is 3.000000
+Parameter 2 is 3.100000
+Parameter 3 is 3.200000
+ System call on myid=           2  took    45.063422631999998       seconds
+ System call on myid=           3  took    45.399452119000003       seconds
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2d1-12>
+Subject: Job 811434: <ser2par> in cluster <henry2> Done
+
+Job <ser2par> was submitted from host <login03> by user <lllowe> in cluster <henry2> at Thu Oct 17 09:41:20 2019
+Job was executed on host(s) <1*n2d1-12>, in queue <debug>, as user <lllowe> in cluster <henry2> at Thu Oct 17 09:41:27 2019
+                            <1*n2d1-2>
+                            <1*n2d1-8>
+                            <1*n2d1-14>
+                            <3*n2d1-4>
+                            <1*n2d1-10>
+</home/lllowe> was used as the home directory.
+</share/Support/lllowe/s2p> was used as the working directory.
+Started at Thu Oct 17 09:41:27 2019
+Terminated at Thu Oct 17 09:42:14 2019
+Results reported at Thu Oct 17 09:42:14 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/csh
+#BSUB -W 0:05 		   # Maximum 5min
+#BSUB -J ser2par               # Job name as listed in queue	
+#BSUB -n 8 		   # number of MPI processes
+#BSUB -oo s2p_matlab_out   # Write stdout to file s2p_out, overwrite old ones
+#BSUB -eo s2p_matlab_err   # Write stdout to file s2p_err, overwrite old ones
+setenv TMPDIR /scratch/$LSB_JOBID
+mkdir -p /scratch/$LSB_JOBID
+module load openmpi-gcc/openmpi4.0.0-gcc4.8.5
+module load matlab
+mpirun ./ser2par
+rm -fr /scratch/$LSB_JOBID
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   90.00 sec.
+    Max Memory :                                 42.66 MB
+    Average Memory :                             18.06 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                18
+    Run time :                                   47 sec.
+    Turnaround time :                            54 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <s2p_matlab_err> for stderr output of this job.
+

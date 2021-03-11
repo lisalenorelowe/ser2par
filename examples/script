@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+  echo "This script expects one argument which is the number of MPI tasks."
+  echo "No argument supplied, exiting."
+  exit 1
+fi
+
+lines=($(wc -l < logfile))
+linesm2=$(expr $lines - 2)
+#echo "$linesm2"
+numprocs="$@"
+#echo "$numprocs"
+if [ "$linesm2" -eq "$numprocs" ] 
+then 
+  echo "No errors detected"
+else
+  echo "Errors detected:"
+  echo "   Lines of logfile= $linesm2 while MPI tasks were $numprocs"
+fi
