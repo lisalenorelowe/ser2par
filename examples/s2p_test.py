@@ -7,7 +7,7 @@
 import sys
 import os
 
-print "This is the name of the script: ", sys.argv[0]
+print ("This is the name of the script: ", sys.argv[0])
 
 # Throw error if missing or too many arguments
 if len(sys.argv) > 4:
@@ -15,12 +15,12 @@ if len(sys.argv) > 4:
 if len(sys.argv) < 4:
 	sys.exit('Error: Takes three arguments')
 
-print "Number of arguments: ", len(sys.argv)
-print "The arguments were: " , str(sys.argv)
+print ("Number of arguments: ", len(sys.argv))
+print ("The arguments were: " , str(sys.argv))
 
-print "Parameter 1 is ",sys.argv[1]
-print "Parameter 2 is ",sys.argv[2]
-print "Parameter 3 is ",sys.argv[3]
+print ("Parameter 1 is ",sys.argv[1])
+print ("Parameter 2 is ",sys.argv[2])
+print ("Parameter 3 is ",sys.argv[3])
 
 #Print hostname to make sure jobs are distributed across nodes
 os.system("echo $HOSTNAME")

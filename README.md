@@ -21,6 +21,10 @@ s2p_commands.txt
 
 Versions:
 
+Untagged update:
+Date 3/12/2021
+Changed compile script and run scripts to use Intel compiler, and changed syntax for Python to parenthesis around print statement.
+
 Tag: v3.0
 
 Date 10/17/2019

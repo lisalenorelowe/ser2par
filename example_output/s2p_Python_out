@@ -1,17 +1,39 @@
+ Processor            0  executes: python s2p_test.py 8.0 8.1 8.2
+ Processor            6  executes: python s2p_test.py 6.0 6.1 6.2
  Processor            1  executes: python s2p_test.py 1.0 1.1 1.2
+ Processor            7  executes: python s2p_test.py 7.0 7.1 7.2
  Processor            2  executes: python s2p_test.py 2.0 2.1 2.2
  Processor            3  executes: python s2p_test.py 3.0 3.1 3.2
  Processor            4  executes: python s2p_test.py 4.0 4.1 4.2
  Processor            5  executes: python s2p_test.py 5.0 5.1 5.2
- Processor            6  executes: python s2p_test.py 6.0 6.1 6.2
- Processor            7  executes: python s2p_test.py 7.0 7.1 7.2
- Processor            0  executes: python s2p_test.py 8.0 8.1 8.2
+n2c1-9
+n2c1-9
+n2c1-14
+n2c1-14
+n2c1-14
+n2c1-14
+n2c1-14
+n2c1-14
 This is the name of the script:  s2p_test.py
 Number of arguments:  4
-The arguments were:  ['s2p_test.py', '3.0', '3.1', '3.2']
-Parameter 1 is  3.0
-Parameter 2 is  3.1
-Parameter 3 is  3.2
+The arguments were:  ['s2p_test.py', '6.0', '6.1', '6.2']
+Parameter 1 is  6.0
+Parameter 2 is  6.1
+Parameter 3 is  6.2
+This is the name of the script:  s2p_test.py
+Number of arguments:  4
+The arguments were:  ['s2p_test.py', '7.0', '7.1', '7.2']
+Parameter 1 is  7.0
+Parameter 2 is  7.1
+Parameter 3 is  7.2
+ System call on myid=           7  took    30.1019818782806       seconds
+ System call on myid=           6  took    30.1021151542664       seconds
+This is the name of the script:  s2p_test.py
+Number of arguments:  4
+The arguments were:  ['s2p_test.py', '8.0', '8.1', '8.2']
+Parameter 1 is  8.0
+Parameter 2 is  8.1
+Parameter 3 is  8.2
 This is the name of the script:  s2p_test.py
 Number of arguments:  4
 The arguments were:  ['s2p_test.py', '1.0', '1.1', '1.2']
@@ -26,64 +48,42 @@ Parameter 2 is  2.1
 Parameter 3 is  2.2
 This is the name of the script:  s2p_test.py
 Number of arguments:  4
-The arguments were:  ['s2p_test.py', '8.0', '8.1', '8.2']
-Parameter 1 is  8.0
-Parameter 2 is  8.1
-Parameter 3 is  8.2
-n2d2-6
-n2d2-6
-n2d2-6
-n2d2-6
+The arguments were:  ['s2p_test.py', '3.0', '3.1', '3.2']
+Parameter 1 is  3.0
+Parameter 2 is  3.1
+Parameter 3 is  3.2
 This is the name of the script:  s2p_test.py
 Number of arguments:  4
 The arguments were:  ['s2p_test.py', '4.0', '4.1', '4.2']
+Parameter 1 is  4.0
+Parameter 2 is  4.1
+Parameter 3 is  4.2
 This is the name of the script:  s2p_test.py
 Number of arguments:  4
 The arguments were:  ['s2p_test.py', '5.0', '5.1', '5.2']
 Parameter 1 is  5.0
 Parameter 2 is  5.1
 Parameter 3 is  5.2
-This is the name of the script:  s2p_test.py
-Number of arguments:  4
-The arguments were:  ['s2p_test.py', '6.0', '6.1', '6.2']
-Parameter 1 is  6.0
-Parameter 2 is  6.1
-Parameter 3 is  6.2
-This is the name of the script:  s2p_test.py
-Parameter 1 is  4.0
-Parameter 2 is  4.1
-Parameter 3 is  4.2
-Number of arguments:  4
-The arguments were:  ['s2p_test.py', '7.0', '7.1', '7.2']
-Parameter 1 is  7.0
-Parameter 2 is  7.1
-Parameter 3 is  7.2
-n2d2-1
-n2d2-1
-n2d2-1
-n2d2-1
- System call on myid=           1  took    30.029681812000000       seconds
- System call on myid=           2  took    30.029682951999998       seconds
- System call on myid=           3  took    30.029680158999998       seconds
- System call on myid=           0  took    30.028580322000003       seconds
- Total time was    30.050239863000002       seconds
- System call on myid=           7  took    30.201536552000000       seconds
- System call on myid=           6  took    30.201991815000000       seconds
- System call on myid=           5  took    30.204844093999998       seconds
- System call on myid=           4  took    30.205797819000001       seconds
+ System call on myid=           0  took    30.1079599857330       seconds
+ Total time was    30.1225349903107       seconds
+ System call on myid=           1  took    30.1079668998718       seconds
+ System call on myid=           2  took    30.1079659461975       seconds
+ System call on myid=           3  took    30.1079080104828       seconds
+ System call on myid=           4  took    30.1079070568085       seconds
+ System call on myid=           5  took    30.1079440116882       seconds
 
 ------------------------------------------------------------
-Sender: LSF System <lsfadmin@n2d2-6>
-Subject: Job 811433: <ser2par> in cluster <henry2> Done
+Sender: LSF System <lsfadmin@n2c1-14>
+Subject: Job 665864: <ser2par> in cluster <henry2> Done
 
-Job <ser2par> was submitted from host <login03> by user <lllowe> in cluster <henry2> at Thu Oct 17 09:41:01 2019
-Job was executed on host(s) <4*n2d2-6>, in queue <debug>, as user <lllowe> in cluster <henry2> at Thu Oct 17 09:41:07 2019
-                            <4*n2d2-1>
+Job <ser2par> was submitted from host <loging.hpc.ncsu.edu> by user <lllowe> in cluster <henry2> at Fri Mar 12 16:14:04 2021
+Job was executed on host(s) <6*n2c1-14>, in queue <debug>, as user <lllowe> in cluster <henry2> at Fri Mar 12 16:14:07 2021
+                            <2*n2c1-9>
 </home/lllowe> was used as the home directory.
-</share/Support/lllowe/s2p> was used as the working directory.
-Started at Thu Oct 17 09:41:07 2019
-Terminated at Thu Oct 17 09:41:39 2019
-Results reported at Thu Oct 17 09:41:39 2019
+</home/lllowe/ser2par> was used as the working directory.
+Started at Fri Mar 12 16:14:07 2021
+Terminated at Fri Mar 12 16:14:40 2021
+Results reported at Fri Mar 12 16:14:40 2021
 
 Your job looked like:
 
@@ -95,11 +95,8 @@ Your job looked like:
 #BSUB -n 8 		   # number of MPI processes
 #BSUB -oo s2p_Python_out   # Write stdout to file s2p_out, overwrite old ones
 #BSUB -eo s2p_Python_err   # Write stdout to file s2p_err, overwrite old ones
-setenv TMPDIR /scratch/$LSB_JOBID
-mkdir -p /scratch/$LSB_JOBID
-module load openmpi-gcc/openmpi4.0.0-gcc4.8.5
+module load PrgEnv-intel 
 mpirun ./ser2par
-rm -fr /scratch/$LSB_JOBID
 
 ------------------------------------------------------------
 
@@ -107,16 +104,16 @@ Successfully completed.
 
 Resource usage summary:
 
-    CPU time :                                   0.87 sec.
-    Max Memory :                                 71.22 MB
-    Average Memory :                             71.14 MB
+    CPU time :                                   1.00 sec.
+    Max Memory :                                 62.91 MB
+    Average Memory :                             62.91 MB
     Total Requested Memory :                     -
     Delta Memory :                               -
-    Max Swap :                                   2440 MB
-    Max Processes :                              16
-    Max Threads :                                29
-    Run time :                                   43 sec.
-    Turnaround time :                            38 sec.
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   32 sec.
+    Turnaround time :                            36 sec.
 
 The output (if any) is above this job summary.
 
